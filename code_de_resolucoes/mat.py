@@ -1,16 +1,16 @@
-num1 = int(input)('Digite o primeiro numero inteiro: ')
+num1 = int(input("Digite o primeiro numero inteiro: "))
 
-num2 = int(input)('Degite o segundo numero inteiro: ')
+num2 = int(input("Degite o segundo numero inteiro: "))
 
-operacao = input ('Digite a operação que deseja realizar (+, -, *, /): ')
+operacao = input("Digite a operação que deseja realizar (+, -, *, /): ")
 
-if operacao == '+':
+if operacao == "+":
     print(num1 + num2)
-elif operacao == '-':
-    print(num1 - num2)
-elif operacao == '*':
+elif operacao == "-":
+    print(abs(num1 - num2))
+elif operacao == "*":
     print(num1 * num2)
-elif operacao == '/':
+elif operacao == "/":
     print(num1 / num2)  
 else:
-    print('Operação invalida') 
+    print("Operação invalida") 
